@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Fotografías</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            background-color: #121212; /* Fondo oscuro estilo vinilo */
+            color: #ffffff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 15px;
+            background: #8B0000; /* Rojo intenso */
+            width: 100%;
+        }
+        .menu a {
+            color: #FFD700;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .menu a:hover {
+            background: #FFD700;
+            color: #121212;
+        }
+        .gallery-container {
+            padding: 40px;
+        }
+        .gallery-title {
+            font-size: 28px;
+            font-weight: bold;
+            color: #FFD700; /* Dorado */
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    GALERIA DE FOTOGRAFIAS
+</header>
+
+<nav class="menu">
+    <a href="BIENVENIDOS1.html">Inicio</a>
+    <a href="../fotografias.html">Fotografias</a>
+    <a href="ARTISTAS.html">Artistas</a>
+    <a href="fqa.html">FAQ</a>
+</nav>
+
+<div class="gallery-container">
+    <h1 class="gallery-title">Nuestra Coleccion de Fotografias</h1>
+    <p>Explora momentos iconicos capturados en imagenes. Desde conciertos legendarios hasta sesiones exclusivas, cada foto cuenta una historia.</p>
+
+    <div class="gallery">
+        <img src="photo-1549477606-43a329b26066.jpg" alt="Imagen 1">
+        <img src="OIP.jpg" alt="Imagen 2">
+        <img src="negative-space-record-album-store-barn-images-thumb-1.jpg" alt="Imagen 3"></div>
+</div>
+
+</body>
+</html>
