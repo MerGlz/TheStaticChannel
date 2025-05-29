@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Dre - Discografía</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 15px;
+            background: #8B0000;
+            width: 100%;
+        }
+        .menu a {
+            color: #FFD700;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .menu a:hover {
+            background: #FFD700;
+            color: #121212;
+        }
+        .album-container {
+            padding: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .album-card {
+            width: 250px;
+            background: rgba(139, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .album-card:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+        }
+        .album-card img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+            border: 3px solid #FFD700;
+        }
+        .album-card a {
+            display: block;
+            margin-top: 15px;
+            color: #FFD700;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .album-card a:hover {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Dr. Dre - Discografia
+</header>
+
+<nav class="menu">
+    <a href="BIENVENIDOS1.html">Inicio</a>
+    <a href="../fotografias.html">Fotografias</a>
+    <a href="ARTISTAS.html">Artistas</a>
+    <a href="fqa.html">FAQ</a>
+</nav>
+
+<div class="album-container">
+    <div class="album-card">
+        <img src="../OIP (9).jpg" alt="The Chronic" width="474" height="474">
+        <a href="https://ejemplo.com/the-chronic-compra">Comprar "The Chronic"</a>    </div>
+    <div class="album-card">
+        <img src="../dr-dre-2001-Cover-Art.jpg" alt="2001" width="600" height="597">
+        <a href="https://ejemplo.com/2001-compra">Comprar "2001"</a>    </div>
+    <div class="album-card">
+        <img src="../R (6).jpg" alt="Compton" width="1100" height="1100">
+        <a href="https://ejemplo.com/compton-compra">Comprar "Compton"</a>    </div>
+</div>
+
+</body>
+</html>
